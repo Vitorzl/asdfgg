@@ -1,3 +1,40 @@
+```lua
+-- Criar um ScreenGui
+local screenGui = Instance.new("ScreenGui")
+screenGui.Name = "Vitor Hub"
+screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+-- Criar um Frame para o ícone flutuante
+local iconFrame = Instance.new("Frame")
+iconFrame.Size = UDim2.new(0, 100, 0, 100) -- Tamanho do ícone
+iconFrame.Position = UDim2.new(0.5, -50, 0.5, -50) -- Posição no centro da tela
+iconFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- Cor de fundo branca
+iconFrame.BackgroundTransparency = 0.5 -- Transparência do fundo
+iconFrame.BorderSizePixel = 0 -- Sem borda
+iconFrame.Parent = screenGui
+
+-- Criar um ImageLabel para exibir a imagem do ícone
+local imageLabel = Instance.new("ImageLabel")
+imageLabel.Size = UDim2.new(1, 0, 1, 0) -- Preencher o Frame
+imageLabel.Image = "rbxassetid://11600511955" -- 
+imageLabel.BackgroundTransparency = 1 -- Fundo transparente
+imageLabel.Parent = iconFrame
+
+-- Função para fazer o ícone flutuar
+local function floatIcon()
+    while true do
+        iconFrame.Position = iconFrame.Position + UDim2.new(0, 0, 0.01, 0) -- Movimento para cima
+        wait(0.1)
+        iconFrame.Position = iconFrame.Position - UDim2.new(0, 0, 0.01, 0) -- Movimento para baixo
+        wait(0.1)
+    end
+end
+
+-- Iniciar a flutuação do ícone
+floatIcon()
+```
+
+
 if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Death") then
 	game:GetService("ReplicatedStorage").Effect.Container.Death:Destroy()
 end
