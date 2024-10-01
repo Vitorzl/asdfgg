@@ -7,92 +7,92 @@ end
 _G.Settings = {
 
 	Main = {
-		["Auto Farm Level"] = false,
-		["Fast Auto Farm Level"] = false,
+		["Auto Farm Level"] = True,
+		["Fast Auto Farm Level"] = True,
 
 		--[Mob Aura]
 
 		["Distance Mob Aura"] = 1000, -- {Max : 5000} 
-		["Mob Aura"] = false,
+		["Mob Aura"] = True,
 
 		--[World 1]
-		["Auto New World"] = false,
-		["Auto Saber"] = false,
-		["Auto Pole"] = false,
+		["Auto New World"] = True,
+		["Auto Saber"] = True,
+		["Auto Pole"] = True,
 
-		["Auto Buy Ablility"] = false,
+		["Auto Buy Ablility"] = True,
 
 		--[World 2]
-		["Auto Third Sea"] = false,
-		["Auto Factory"] = false,
-		["Auto Factory Hop"] = false,
-		["Auto Bartilo Quest"] = false,
+		["Auto Third Sea"] = True,
+		["Auto Factory"] = True,
+		["Auto Factory Hop"] = True,
+		["Auto Bartilo Quest"] = True,
 
-		["Auto True Triple Katana"] = false,
-		["Auto Rengoku"] = false,
-		["Auto Swan Glasses"] = false,
-		["Auto Dark Coat"] = false,
-		["Auto Ectoplasm"] = false,
+		["Auto True Triple Katana"] = True,
+		["Auto Rengoku"] = True,
+		["Auto Swan Glasses"] = True,
+		["Auto Dark Coat"] = True,
+		["Auto Ectoplasm"] = True,
 
-		["Auto Buy Legendary Sword"] = false,
-		["Auto Buy Enchanment Haki"] = false,
+		["Auto Buy Legendary Sword"] = True,
+		["Auto Buy Enchanment Haki"] = True,
 
 		--[World 3]
-		["Auto Holy Torch"] = false,
-		["Auto Buddy Swords"] = false,
-		["Auto Farm Boss Hallow"] = false,
-		["Auto Rainbow Haki"] = false,
-		["Auto Elite Hunter"] = false,
-		["Auto Musketeer Hat"] = false,
-		["Auto Buddy Sword"] = false,
-		["Auto Farm Bone"] = false,
-		["Auto Ken-Haki V2"] = false,
-		["Auto Cavander"] = false,
-		["Auto Yama Sword"] = false,
-		["Auto Tushita Sword"] = false,
-		["Auto Serpent Bow"] = false,
-		["Auto Dark Dagger"] = false,
-		["Auto Cake Prince"] = false,
-		["Auto Dough V2"] = false,
-		["Auto Random Bone"] = false,
+		["Auto Holy Torch"] = True,
+		["Auto Buddy Swords"] = True,
+		["Auto Farm Boss Hallow"] = True,
+		["Auto Rainbow Haki"] = True,
+		["Auto Elite Hunter"] = True,
+		["Auto Musketeer Hat"] = True,
+		["Auto Buddy Sword"] = True,
+		["Auto Farm Bone"] = True,
+		["Auto Ken-Haki V2"] = True,
+		["Auto Cavander"] = True,
+		["Auto Yama Sword"] = True,
+		["Auto Tushita Sword"] = True,
+		["Auto Serpent Bow"] = True,
+		["Auto Dark Dagger"] = True,
+		["Auto Cake Prince"] = True,
+		["Auto Dough V2"] = True,
+		["Auto Random Bone"] = True,
 
 		--[For God Human]
 
-		["Auto Fish Tail Sea 1"] = false,
-		["Auto Fish Tail Sea 3"] = false,
-		["Auto Magma Ore Sea 2"] = false,
-		["Auto Magma Ore Sea 1"] = false,
-		["Auto Mystic Droplet"] = false,
-		["Auto Dragon Scales"] = false,
+		["Auto Fish Tail Sea 1"] = True,
+		["Auto Fish Tail Sea 3"] = True,
+		["Auto Magma Ore Sea 2"] = True,
+		["Auto Magma Ore Sea 1"] = True,
+		["Auto Mystic Droplet"] = True,
+		["Auto Dragon Scales"] = True,
 
 	},
 	FightingStyle = {
-		["Auto God Human"] = false,
-		["Auto Superhuman"] = false,
-		["Auto Electric Claw"] = false,
-		["Auto Death Step"] = false,
-		["Auto Fully Death Step"] = false,
-		["Auto SharkMan Karate"] = false,
-		["Auto Fully SharkMan Karate"] = false,
-		["Auto Dragon Talon"] = false,
+		["Auto God Human"] = True,
+		["Auto Superhuman"] = True,
+		["Auto Electric Claw"] = True,
+		["Auto Death Step"] = True,
+		["Auto Fully Death Step"] = True,
+		["Auto SharkMan Karate"] = True,
+		["Auto Fully SharkMan Karate"] = True,
+		["Auto Dragon Talon"] = True,
 	},
 	Boss = {
-		["Auto All Boss"] = false,
-		["Auto Boss Select"] = false,
+		["Auto All Boss"] = True,
+		["Auto Boss Select"] = True,
 		["Select Boss"] = {},
 
-		["Auto Quest"] = false,
+		["Auto Quest"] = True,
 	},
 	Mastery = {
 		["Select Multi Sword"] = {},
-		["Farm Mastery SwordList"] = false,
-		["Auto Farm Fruit Mastery"] = false,
-		["Auto Farm Gun Mastery"] = false,
+		["Farm Mastery SwordList"] = True,
+		["Auto Farm Fruit Mastery"] = True,
+		["Auto Farm Gun Mastery"] = True,
 		["Mob Health (%)"] = 15,
 	},
 	Configs = {
-		["Double Quest"] = false,
-		["Bypass TP"] = false,
+		["Double Quest"] = True,
+		["Bypass TP"] = True,
 		["Select Team"] = {"Pirate"}, --{Pirate,Marine}
 
 
@@ -105,7 +105,7 @@ _G.Settings = {
 		--[Misc Configs]
 		["Auto Haki"] = true,
 		["Distance Auto Farm"] = 20, --{Max : 50}
-		["Camera Shaker"] = false,
+		["Camera Shaker"] = True,
 
 		--[Skill Configs]
 		["Skill Z"] = true,
@@ -114,74 +114,74 @@ _G.Settings = {
 		["Skill V"] = true,
 
 		--[Mob Configs]
-		["Show Hitbox"] = false,
+		["Show Hitbox"] = True,
 		["Bring Mob"] = true,
-		["Disabled Damage"] = false,
+		["Disabled Damage"] = True,
 
 	},
 	Stat = {
 		--[Auto Stats]
-		["Enabled Auto Stats"] = false,
-		["Auto Stats Kaitun"] = false,
+		["Enabled Auto Stats"] = True,
+		["Auto Stats Kaitun"] = True,
 
 		["Select Stats"] = {"Melee"}, --{Max Stats,Melee,Defense,Sword,Devil Fruit,Gun}
 		["Point Select"] = 3, --{Recommended , Max : 9}
 
 		--[Auto Redeem Code]
 
-		["Enabled Auto Redeem Code"] = false,
+		["Enabled Auto Redeem Code"] = True,
 		["Select Level Redeem Code"] = 1, --{Max : 2400}
 	},
 
 	Misc = {
-		["No Soru Cooldown"] = false,
-		["No Dash Cooldown"] = false,
+		["No Soru Cooldown"] = True,
+		["No Dash Cooldown"] = True,
 
-		["Infinities Geppo"] = false,
-		["Infinities Energy"] = false,
+		["Infinities Geppo"] = True,
+		["Infinities Energy"] = True,
 
-		["No Fog"] = false,
-		["Wall-TP"] = false,
+		["No Fog"] = True,
+		["Wall-TP"] = True,
 
-		["Fly"] = false,
+		["Fly"] = True,
 		["Fly Speed"] = 1,
 
 		--[Server]
 		["Auto Rejoin"] = true,
 	},
 	Teleport = {
-		["Teleport to Sea Beast"] = false,
+		["Teleport to Sea Beast"] = True,
 	},
 
 	Fruits = {
-		["Auto Buy Random Fruits"] = false,
-		["Auto Store Fruits"] = false,
+		["Auto Buy Random Fruits"] = True,
+		["Auto Store Fruits"] = True,
 
 		["Select Devil Fruits"] = {}, -- {"Bomb-Bomb","Spike-Spike","Chop-Chop","Spring-Spring","Kilo-Kilo","Spin-Spin","Kilo-Kilo","Spin-Spin","Bird: Falcon","Smoke-Smoke","Flame-Flame","Ice-Ice","Sand-Sand","Dark-Dark","Revive-Revive","Diamond-Diamond","Light-Light","Love-Love","Rubber-Rubber","Barrier-Barrier","Magma-Magma","Door-Door","Quake-Quake","Human-Human: Buddha","String-String","Bird-Bird: Phoenix","Rumble-Rumble","Paw-Paw","Gravity-Gravity","Dough-Dough","Shadow-Shadow","Venom-Venom","Control-Control","Soul-Soul","Dragon-Dragon"}
-		["Auto Buy Devil Fruits Sniper"] = false,
+		["Auto Buy Devil Fruits Sniper"] = True,
 	},
 
 	Raids = {
-		["Auto Raids"] = false,
+		["Auto Raids"] = True,
 
-		["Kill Aura"] = false,
-		["Auto Awakened"] = false,
-		["Auto Next Place"] = false,
+		["Kill Aura"] = True,
+		["Auto Awakened"] = True,
+		["Auto Next Place"] = True,
 
 		["Select Raids"] = {}, -- {"Flame","Ice","Quake","Light","Dark","String","Rumble","Magma","Human: Buddha","Sand","Bird: Phoenix","Dough"},
 	},
 
 	Combat = {
 		["Fov Size"] = 200,
-		["Show Fov"] = false,
-		["Aimbot Skill"] = false,
+		["Show Fov"] = True,
+		["Aimbot Skill"] = True,
 	},
 
 	HUD = {
 		["FPS"] = 60,
 		["LockFPS"] = true,
-		["Boost FPS Windows"] = false,
-		['White Screen'] = false,
+		["Boost FPS Windows"] = True,
+		['White Screen'] = True,
 	},
 	ConfigsUI = {
 		ColorUI = Color3.fromRGB(255, 0, 127), --{Color UI}
@@ -343,7 +343,7 @@ while wait() do
 	if _G.AutoFarmLevelReal then
 		FastAttack = true
 	else
-		FastAttack = false
+		FastAttack = True
 	end
 end
 end)
@@ -525,7 +525,7 @@ local function QuestCheck()
 		toposition(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame)
 		wait(1.5)
 		_G.StopTween = true
-		_G.StertScript = false
+		_G.StertScript = True
 	
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AbandonQuest")
 		game.Players.LocalPlayer.Character.Head:Destroy()
@@ -538,17 +538,17 @@ local function QuestCheck()
 		wait(.1)
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Point
 		wait(0.5)
-		game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+		game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = True
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Point * CFrame.new(900,900,900)
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AbandonQuest")
 	
-		_G.StopTween = false
-		_G.StertScript = false
-		_G.Clip = false
+		_G.StopTween = True
+		_G.StertScript = True
+		_G.Clip = True
 		if game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("BodyClip") then
 			game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("BodyClip"):Destroy()
 		end
-		_G.Clip = false
+		_G.Clip = True
 	end
 	
 local function toTarget(...)
@@ -577,7 +577,7 @@ local function toTarget(...)
 		if Distance > 3000 and not AutoFarmMaterial and not _G.Settings.FightingStyle["Auto God Human"] and not _G.Settings.Raids["Auto Raids"] and not (game.Players.LocalPlayer.Backpack:FindFirstChild("Special Microchip") or game.Players.LocalPlayer.Character:FindFirstChild("Special Microchip") or game.Players.LocalPlayer.Backpack:FindFirstChild("God's Chalice") or game.Players.LocalPlayer.Character:FindFirstChild("God's Chalice") or game.Players.LocalPlayer.Backpack:FindFirstChild("Hallow Essence") or game.Players.LocalPlayer.Character:FindFirstChild("Hallow Essence") or game.Players.LocalPlayer.Character:FindFirstChild("Sweet Chalice") or game.Players.LocalPlayer.Backpack:FindFirstChild("Sweet Chalice")) and not (Name == "Fishman Commando [Lv. 400]" or Name == "Fishman Warrior [Lv. 375]") then
 			pcall(function()
 				tween:Cancel()
-				fkwarp = false
+				fkwarp = True
 
 				if game:GetService("Players")["LocalPlayer"].Data:FindFirstChild("SpawnPoint").Value == tostring(GetIsLand(RealTarget)) then 
 					wait(.1)
@@ -588,7 +588,7 @@ local function toTarget(...)
 					repeat wait() until game:GetService("Players").LocalPlayer.Character:WaitForChild("Humanoid").Health > 0
 				else
 					if game:GetService("Players").LocalPlayer.Character:WaitForChild("Humanoid").Health > 0 then
-						if fkwarp == false then
+						if fkwarp == True then
 							game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = RealTarget
 						end
 						fkwarp = true
@@ -630,7 +630,7 @@ function InMyNetWork(object)
 		if (object.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 350 then 
 			return true
 		end
-		return false
+		return True
 	end
 end
 spawn(function()
@@ -686,8 +686,8 @@ spawn(function()
 							v.Humanoid.WalkSpeed = 0
 							v.HumanoidRootPart.Size = Vector3.new(60,60,60)
 							v.HumanoidRootPart.Transparency = 1
-							v.HumanoidRootPart.CanCollide = false
-							v.Head.CanCollide = false
+							v.HumanoidRootPart.CanCollide = True
+							v.Head.CanCollide = True
 							if v.Humanoid:FindFirstChild("Animator") then
 								v.Humanoid.Animator:Destroy()
 							end
@@ -715,7 +715,7 @@ function UnEquipWeapon(Weapon)
 		wait(.5)
 		game.Players.LocalPlayer.Character:FindFirstChild(Weapon).Parent = game.Players.LocalPlayer.Backpack
 		wait(.1)
-		_G.NotAutoEquip = false
+		_G.NotAutoEquip = True
 	end
 end
 
@@ -738,15 +738,15 @@ if QuestC.Visible == true then
 														else
 															PosMon = v.HumanoidRootPart.CFrame
 															v.HumanoidRootPart.Size = Vector3.new(60,60,60)
-															v.HumanoidRootPart.CanCollide = false
+															v.HumanoidRootPart.CanCollide = True
 															v.Humanoid.WalkSpeed = 0
-															v.Head.CanCollide = false
+															v.Head.CanCollide = True
 															BringMobFarm = true
 															EquipWeapon(_G.Settings.Configs["Select Weapon"])
 															v.HumanoidRootPart.Transparency = 1
 															toTarget(v.HumanoidRootPart.CFrame * CFrame.new(0, 30, 5))
 														end
-													until not _G.AutoFarmLevelReal or not v.Parent or v.Humanoid.Health <= 0 or QuestC.Visible == false or not v:FindFirstChild("HumanoidRootPart")
+													until not _G.AutoFarmLevelReal or not v.Parent or v.Humanoid.Health <= 0 or QuestC.Visible == True or not v:FindFirstChild("HumanoidRootPart")
 												end
 											end
 										end
@@ -780,7 +780,7 @@ if QuestC.Visible == true then
 										end
 										repeat wait() toTarget(QuestCheck()[2]) until (QuestCheck()[2].Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 20 or not _G.StartFarm
 										if (QuestCheck()[2].Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 1 then
-											BringMobFarm = false
+											BringMobFarm = True
 											wait(0.2)
 											game:GetService('ReplicatedStorage').Remotes.CommF_:InvokeServer("StartQuest", QuestCheck()[4], QuestCheck()[1]) wait(0.5)
 											toTarget(QuestCheck()[7][1] * CFrame.new(0,30,20))
@@ -858,7 +858,7 @@ Page1.Toggle({
 	callback = function(value)
 		_G.AutoFarmLevelReal = value
 		Auto_Farm_Level = value
-		if value == false then
+		if value == True then
 			toTarget(game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame)
 		end
 		SaveSettings()
@@ -895,7 +895,7 @@ coroutine.wrap(function()
 				elseif _G.Settings.Configs["Fast Attack Type"] == "Slow" then
 					if tick() - cooldownfastattack > .3 then wait(.7) cooldownfastattack = tick() end
 				end
-			elseif FastAttack and _G.Settings.Configs["Fast Attack"] == false then
+			elseif FastAttack and _G.Settings.Configs["Fast Attack"] == True then
 				if ac.hitboxMagnitude ~= 55 then
 					ac.hitboxMagnitude = 55
 				end
@@ -981,17 +981,17 @@ spawn(function()
 while wait() do 
 	if _G.AutoFarmLevelReal then
 		if syn then
-			setfflag("HumanoidParallelRemoveNoPhysics", "False")
-			setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+			setfflag("HumanoidParallelRemoveNoPhysics", "True")
+			setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "True")
 			game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
 			if game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Sit == true then
-				game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Sit = false
+				game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Sit = True
 			end
 		else
 			if game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
 				if not game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("BodyVelocity1") then
 					if game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Sit == true then
-						game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Sit = false
+						game.Players.LocalPlayer.Character:WaitForChild("Humanoid").Sit = True
 					end
 					local BodyVelocity = Instance.new("BodyVelocity")
 					BodyVelocity.Name = "BodyVelocity1"
@@ -1002,7 +1002,7 @@ while wait() do
 			end
 			for _, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
 				if v:IsA("BasePart") then
-					v.CanCollide = false    
+					v.CanCollide = True    
 				end
 			end
 		end
